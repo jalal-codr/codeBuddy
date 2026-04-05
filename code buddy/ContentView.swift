@@ -2,20 +2,32 @@
 //  ContentView.swift
 //  code buddy
 //
-//  Created by MACS on 01/04/2026.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab: SidebarTab = .models
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HStack(spacing: 0) {
+            SidebarView(selectedTab: $selectedTab)
+            Divider().background(Color.cbBorder)
+            MainContentView(selectedTab: selectedTab)
         }
-        .padding()
+        .frame(width: 900, height: 660)
+        .background(Color.cbBackground)
+    }
+}
+
+struct MainContentView: View {
+    let selectedTab: SidebarTab
+
+    var body: some View {
+        switch selectedTab {
+        case .setup:    SetupView()
+        case .models:   ModelsView()
+        case .settings: SettingsView()
+        }
     }
 }
 

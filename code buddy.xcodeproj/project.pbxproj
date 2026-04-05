@@ -11,6 +11,31 @@
 		0DA9440C2F7D0A8700697F6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9440B2F7D0A8700697F6D /* ContentView.swift */; };
 		0DA9440E2F7D0A8B00697F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA9440D2F7D0A8B00697F6D /* Assets.xcassets */; };
 		0DA944112F7D0A8B00697F6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA944102F7D0A8B00697F6D /* Preview Assets.xcassets */; };
+		CB000001000000000000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000001000000000000000 /* Theme.swift */; };
+		CB000002000000000000001 /* LocalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000002000000000000000 /* LocalModel.swift */; };
+		CB000003000000000000001 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000003000000000000000 /* ChatMessage.swift */; };
+		CB000004000000000000001 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000004000000000000000 /* SidebarView.swift */; };
+		CB000005000000000000001 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000005000000000000000 /* SetupView.swift */; };
+		CB000006000000000000001 /* ModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000006000000000000000 /* ModelsView.swift */; };
+		CB000007000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000007000000000000000 /* SettingsView.swift */; };
+		CB000008000000000000001 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000008000000000000000 /* ChatBubble.swift */; };
+		CB000009000000000000001 /* ChatInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000009000000000000000 /* ChatInputBar.swift */; };
+		CB000010000000000000001 /* FolderPickerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000010000000000000000 /* FolderPickerBar.swift */; };
+		CB000011000000000000001 /* ActiveModelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000011000000000000000 /* ActiveModelCard.swift */; };
+		CB000012000000000000001 /* ServiceStatusPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000012000000000000000 /* ServiceStatusPanel.swift */; };
+		CB000013000000000000001 /* ModelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000013000000000000000 /* ModelRow.swift */; };
+		CB000014000000000000001 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000014000000000000000 /* StatCard.swift */; };
+		CB000015000000000000001 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000015000000000000000 /* SectionHeader.swift */; };
+		CB000016000000000000001 /* AppearanceOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000016000000000000000 /* AppearanceOption.swift */; };
+		CB000017000000000000001 /* SystemStatsMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000017000000000000000 /* SystemStatsMonitor.swift */; };
+		CB000018000000000000001 /* BackendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000018000000000000000 /* BackendManager.swift */; };
+		CB000019000000000000001 /* devcompanion in Resources */ = {isa = PBXBuildFile; fileRef = CB000019000000000000000 /* devcompanion */; };
+		CB000020000000000000001 /* OllamaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000020000000000000000 /* OllamaManager.swift */; };
+		CB000021000000000000001 /* OllamaModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000021000000000000000 /* OllamaModelManager.swift */; };
+		CB000022000000000000001 /* LiveModelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000022000000000000000 /* LiveModelRow.swift */; };
+		CB000023000000000000001 /* PullProgressBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000023000000000000000 /* PullProgressBanner.swift */; };
+		CB000024000000000000001 /* ModelStoreSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000024000000000000000 /* ModelStoreSheet.swift */; };
+		CB000025000000000000001 /* DocsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB000025000000000000000 /* DocsSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +45,31 @@
 		0DA9440D2F7D0A8B00697F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA944102F7D0A8B00697F6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DA944122F7D0A8B00697F6D /* code_buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = code_buddy.entitlements; sourceTree = "<group>"; };
+		CB000001000000000000000 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CB000002000000000000000 /* LocalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalModel.swift; sourceTree = "<group>"; };
+		CB000003000000000000000 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		CB000004000000000000000 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		CB000005000000000000000 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		CB000006000000000000000 /* ModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsView.swift; sourceTree = "<group>"; };
+		CB000007000000000000000 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CB000008000000000000000 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		CB000009000000000000000 /* ChatInputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputBar.swift; sourceTree = "<group>"; };
+		CB000010000000000000000 /* FolderPickerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPickerBar.swift; sourceTree = "<group>"; };
+		CB000011000000000000000 /* ActiveModelCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveModelCard.swift; sourceTree = "<group>"; };
+		CB000012000000000000000 /* ServiceStatusPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusPanel.swift; sourceTree = "<group>"; };
+		CB000013000000000000000 /* ModelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRow.swift; sourceTree = "<group>"; };
+		CB000014000000000000000 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		CB000015000000000000000 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		CB000016000000000000000 /* AppearanceOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceOption.swift; sourceTree = "<group>"; };
+		CB000017000000000000000 /* SystemStatsMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemStatsMonitor.swift; sourceTree = "<group>"; };
+		CB000018000000000000000 /* BackendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendManager.swift; sourceTree = "<group>"; };
+		CB000019000000000000000 /* devcompanion */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = devcompanion; sourceTree = "<group>"; };
+		CB000020000000000000000 /* OllamaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaManager.swift; sourceTree = "<group>"; };
+		CB000021000000000000000 /* OllamaModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaModelManager.swift; sourceTree = "<group>"; };
+		CB000022000000000000000 /* LiveModelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveModelRow.swift; sourceTree = "<group>"; };
+		CB000023000000000000000 /* PullProgressBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullProgressBanner.swift; sourceTree = "<group>"; };
+		CB000024000000000000000 /* ModelStoreSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStoreSheet.swift; sourceTree = "<group>"; };
+		CB000025000000000000000 /* DocsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,10 @@
 			children = (
 				0DA944092F7D0A8700697F6D /* code_buddyApp.swift */,
 				0DA9440B2F7D0A8700697F6D /* ContentView.swift */,
+				CB000001000000000000000 /* Theme.swift */,
+				CB_MODELS_GROUP /* Models */,
+				CB_SIDEBAR_GROUP /* Sidebar */,
+				CB_VIEWS_GROUP /* Views */,
 				0DA9440D2F7D0A8B00697F6D /* Assets.xcassets */,
 				0DA944122F7D0A8B00697F6D /* code_buddy.entitlements */,
 				0DA9440F2F7D0A8B00697F6D /* Preview Content */,
@@ -67,6 +121,59 @@
 				0DA944102F7D0A8B00697F6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB_COMPONENTS_GROUP /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CB000008000000000000000 /* ChatBubble.swift */,
+				CB000009000000000000000 /* ChatInputBar.swift */,
+				CB000010000000000000000 /* FolderPickerBar.swift */,
+				CB000011000000000000000 /* ActiveModelCard.swift */,
+				CB000012000000000000000 /* ServiceStatusPanel.swift */,
+				CB000013000000000000000 /* ModelRow.swift */,
+				CB000014000000000000000 /* StatCard.swift */,
+				CB000015000000000000000 /* SectionHeader.swift */,
+				CB000016000000000000000 /* AppearanceOption.swift */,
+				CB000022000000000000000 /* LiveModelRow.swift */,
+				CB000023000000000000000 /* PullProgressBanner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CB_MODELS_GROUP /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB000002000000000000000 /* LocalModel.swift */,
+				CB000003000000000000000 /* ChatMessage.swift */,
+				CB000017000000000000000 /* SystemStatsMonitor.swift */,
+				CB000018000000000000000 /* BackendManager.swift */,
+				CB000020000000000000000 /* OllamaManager.swift */,
+				CB000021000000000000000 /* OllamaModelManager.swift */,
+				CB000019000000000000000 /* devcompanion */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB_SIDEBAR_GROUP /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				CB000004000000000000000 /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		CB_VIEWS_GROUP /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB000005000000000000000 /* SetupView.swift */,
+				CB000006000000000000000 /* ModelsView.swift */,
+				CB000007000000000000000 /* SettingsView.swift */,
+				CB000024000000000000000 /* ModelStoreSheet.swift */,
+				CB000025000000000000000 /* DocsSheet.swift */,
+				CB_COMPONENTS_GROUP /* Components */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +236,7 @@
 			files = (
 				0DA944112F7D0A8B00697F6D /* Preview Assets.xcassets in Resources */,
 				0DA9440E2F7D0A8B00697F6D /* Assets.xcassets in Resources */,
+				CB000019000000000000001 /* devcompanion in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +249,30 @@
 			files = (
 				0DA9440C2F7D0A8700697F6D /* ContentView.swift in Sources */,
 				0DA9440A2F7D0A8700697F6D /* code_buddyApp.swift in Sources */,
+				CB000001000000000000001 /* Theme.swift in Sources */,
+				CB000002000000000000001 /* LocalModel.swift in Sources */,
+				CB000003000000000000001 /* ChatMessage.swift in Sources */,
+				CB000004000000000000001 /* SidebarView.swift in Sources */,
+				CB000005000000000000001 /* SetupView.swift in Sources */,
+				CB000006000000000000001 /* ModelsView.swift in Sources */,
+				CB000007000000000000001 /* SettingsView.swift in Sources */,
+				CB000008000000000000001 /* ChatBubble.swift in Sources */,
+				CB000009000000000000001 /* ChatInputBar.swift in Sources */,
+				CB000010000000000000001 /* FolderPickerBar.swift in Sources */,
+				CB000011000000000000001 /* ActiveModelCard.swift in Sources */,
+				CB000012000000000000001 /* ServiceStatusPanel.swift in Sources */,
+				CB000013000000000000001 /* ModelRow.swift in Sources */,
+				CB000014000000000000001 /* StatCard.swift in Sources */,
+				CB000015000000000000001 /* SectionHeader.swift in Sources */,
+				CB000016000000000000001 /* AppearanceOption.swift in Sources */,
+				CB000017000000000000001 /* SystemStatsMonitor.swift in Sources */,
+				CB000018000000000000001 /* BackendManager.swift in Sources */,
+				CB000020000000000000001 /* OllamaManager.swift in Sources */,
+				CB000021000000000000001 /* OllamaModelManager.swift in Sources */,
+				CB000022000000000000001 /* LiveModelRow.swift in Sources */,
+				CB000023000000000000001 /* PullProgressBanner.swift in Sources */,
+				CB000024000000000000001 /* ModelStoreSheet.swift in Sources */,
+				CB000025000000000000001 /* DocsSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
