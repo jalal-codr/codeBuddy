@@ -14,7 +14,7 @@ struct ContentView: View {
             Divider().background(Color.cbBorder)
             MainContentView(selectedTab: selectedTab)
         }
-        .frame(width: 900, height: 660)
+        .frame(minWidth: 800, minHeight: 560)
         .background(Color.cbBackground)
     }
 }
